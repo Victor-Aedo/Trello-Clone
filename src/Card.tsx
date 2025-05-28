@@ -2,6 +2,12 @@ import { useState } from "react";
 
 function Card() {
 
+    type Props = {
+        title: string;
+        description: string;
+        tasks: string[];
+    };
+
     const [counter, setCounter] = useState<number>(0);
 
     return (

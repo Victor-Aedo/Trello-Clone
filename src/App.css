@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+
+
+.titulo-principal {
+  @tailwindcss text-4xl font-thin text-gray-900 dark:text-white;
+}
